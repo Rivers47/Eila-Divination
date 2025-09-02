@@ -1,0 +1,63 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+}
+.uranai {
+	margin: 0px;
+	padding: 0px;
+	width: 380px;
+	overflow: hidden;
+	background-image: url(../img/talot-bg.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 540px;
+}
+.random {
+	display: inline;
+}
+
+
+.uranai .text {
+	font-size: 11px;
+	line-height: 1.3em;
+	margin-top: 94px;
+	height: 185px;
+	float: left;
+	width: 225px;
+}
+
+.uranai .card {
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	height: 540px;
+	width: 380px;
+	overflow: hidden;
+}
+.uranai .card .alpha {
+	height: 39px;
+	width: 226px;
+	margin-top: 167px;
+}
+.uranai .card .alpha img {
+	padding: 0px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 18px;
+}
+.uranai .card img {
+	float: left;
+	margin-right: 12px;
+	display: inline;
+}
+.talot-close {
+	height: 22px;
+	width: 380px;
+	text-align: center;
+}
