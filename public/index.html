@@ -7,8 +7,21 @@
 <link href="css/eira.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div class="uranai"><SCRIPT language="JavaScript">randomCard();</SCRIPT></div>
+<div class="uranai" id="uranai"><SCRIPT language="JavaScript">randomCard();</SCRIPT></div>
 
 <div class="talot-close"><a href="#" onClick="javascript:window.close()"><img src="img/talot-close.gif" alt="close" width="68" height="22" border="0" /></a></div>
+
+<script>
+function scaleUranai() {
+    var uranai = document.getElementById('uranai');
+    var scaleX = window.innerWidth / 380;
+    var scaleY = window.innerHeight / 540;
+    var scale = Math.min(scaleX, scaleY);
+    uranai.style.transform = 'scale(' + scale + ')';
+    uranai.style.transformOrigin = 'top left';
+}
+window.addEventListener('load', scaleUranai);
+window.addEventListener('resize', scaleUranai);
+</script>
 </body>
 </html>
